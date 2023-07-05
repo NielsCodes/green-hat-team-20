@@ -2,8 +2,8 @@ import { ChakraProvider } from "@chakra-ui/react";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { Providers } from "./providers";
-import Header from "./header";
-import Footer from "./footer";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
