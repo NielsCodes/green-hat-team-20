@@ -12,7 +12,7 @@
   flex-direction: column;
   min-height: 100vh;
   min-height: 100dvh;
-  background: oklch(89% .1 var(--hue));
+  background: oklch(94% .1 var(--hue));
 }
 
 #global-header {

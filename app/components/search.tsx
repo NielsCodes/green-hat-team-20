@@ -6,7 +6,7 @@ export default function Search() {
     <VStack width="100%">
       <HStack width="100%">
         <Input
-          background="gray.200"
+          background="gray.50"
           placeholder="What would you like to give away?"
           pr="5"
         />
