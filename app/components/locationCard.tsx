@@ -5,6 +5,16 @@ import FreshFoodBadge from "./badges/freshFoodBadge";
 import NonPerishFoodBadge from "./badges/nonPerishFoodBadge";
 import ToysBadge from "./badges/toysBadge";
 import KidsItemBadge from "./badges/kidsItemBadge";
+import ElectronicsBadge from "./badges/electronicsBadge";
+import AppliancesBadge from "./badges/appliancesBadge";
+import { Categories } from "../types/categories";
+
+export type LocationCardProps = {
+  name: string;
+  address: string;
+  distance: number;
+  categories: Categories
+}
 
 export default function LocationCard() {
   return (
@@ -21,6 +31,8 @@ export default function LocationCard() {
             <NonPerishFoodBadge />
             <ToysBadge />
             <KidsItemBadge />
+            <ElectronicsBadge />
+            <AppliancesBadge />
           </HStack>
         </VStack>
         <Flex
