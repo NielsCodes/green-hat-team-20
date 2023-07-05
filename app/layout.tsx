@@ -8,8 +8,8 @@ import Footer from "./footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Team 20 🏆",
-  description: "Hello world",
+  title: "Circular Town 🏡",
+  description: "Giving your items a second life, made easy",
 };
 
 export default function RootLayout({
