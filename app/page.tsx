@@ -1,5 +1,11 @@
+"use client";
+
+import Search from "./search";
+
 export default function Home() {
   return (
-    <h1>Hello team 20</h1>
-  )
+    <div id="home-container">
+      <Search />
+    </div>
+  );
 }
